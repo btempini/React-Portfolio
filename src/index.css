@@ -1,0 +1,574 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Playfair+Display&family=Poppins&display=swap");
+
+/* Universal Selectors */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar */
+#name {
+  margin-top: 24px;
+  font-size: 69px;
+  z-index: 2;
+  font-family: "Playfair Display";
+  margin-left: 20px;
+  letter-spacing: -8px;
+}
+
+#underlineName {
+  top: 80px;
+  height: 19px;
+  position: absolute;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  background-color: #f4f6f4;
+  border-bottom: 3px solid rgb(136, 138, 75);
+}
+
+#navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+#linkContainer {
+  z-index: 2;
+  height: 25px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.linkLine {
+  height: 3px;
+  width: 105%;
+  background-color: rgb(136, 138, 75);
+  margin-top: 4px;
+  display: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.linkWrapper:hover .linkLine {
+  display: block;
+}
+
+/* Hero Section */
+#hero {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  background-image: url(../public/fern.jpg);
+  background-size: cover;
+  background-position-y: 38%;
+  border-bottom: 3px solid rgb(136, 138, 75);
+  font-family: "Comforter Brush", cursive;
+}
+
+#hero h2 {
+  font-size: 60px;
+  position: absolute;
+}
+
+/* Web Design & Development in Hero Section */
+#design {
+  left: 15%;
+  top: 41%;
+  transform: rotate(-11deg);
+}
+
+#development {
+  left: 22%;
+  top: 69%;
+}
+
+#and {
+  position: absolute;
+  left: 24%;
+  top: 57%;
+  height: 70px;
+}
+
+/* Icons */
+#icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin: 50px auto 0 auto;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+.languageIcon {
+  height: 50px;
+}
+
+/* Styling for containers */
+.container {
+  display: flex;
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 50px 50px;
+}
+
+/* Underlines */
+.underline {
+  position: absolute;
+  top: 77px;
+  height: 26px;
+  left: -414px;
+}
+
+/* Contact Earth Image */
+.earth {
+  position: absolute;
+  height: 250px;
+  top: -30px;
+  left: 5%;
+}
+
+/* About Section */
+#about {
+  height: auto;
+}
+#about div {
+  width: 80%;
+}
+
+#about h3 {
+  z-index: 1;
+  width: 20%;
+  font-family: "Comforter Brush", cursive;
+  font-size: 50px;
+}
+
+#about p {
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+}
+
+/* Avatar */
+#about div img {
+  margin: 10px;
+  float: left;
+  height: 105px;
+  border-radius: 70px;
+}
+
+/* Work Section */
+#work {
+  height: auto;
+}
+
+.workDescription {
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  line-height: 2;
+  margin: 0 auto 90px auto;
+  padding: 10px;
+  background-color: rgb(136, 138, 170, 20%);
+  padding: 40px;
+  border-left: 3px solid rgb(82, 129, 116);
+  border-right: 3px solid rgb(82, 129, 116);
+  border-bottom: 3px solid rgb(82, 129, 116);
+  border-radius: 0 0 5px 5px;
+}
+
+.workDescriptionTitle {
+  transform: rotate(356deg);
+  margin-bottom: 4px;
+  text-decoration: underline;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  /* color: rgb(136, 138, 167); */
+  width: 50%;
+  margin-left: -30px;
+}
+
+#work h3 {
+  z-index: 1;
+  width: 20%;
+  font-family: "Comforter Brush", cursive;
+  font-size: 50px;
+}
+
+#workLine {
+  position: absolute;
+  top: 127px;
+  height: 26px;
+  left: -414px;
+}
+
+#examplesContainer {
+  width: 80%;
+  /* background-color: rgb(95, 158, 160, 20%); */
+}
+
+#project {
+  border: 3px solid rgb(82, 129, 116);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(../public/StandardServices.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectTwo {
+  border: 3px solid rgb(82, 129, 116);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(../public/advancedtree.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectThree {
+  border: 3px solid rgb(82, 129, 116);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(../public/dreamstream.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projectLink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.projectTitle {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(82, 129, 116);
+  top: 335px;
+  left: -2px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; */
+}
+
+/* Contact Section */
+#contact {
+  height: auto;
+  margin-top: 140px;
+}
+
+#contact h3 {
+  margin-top: 32px;
+  z-index: 1;
+  width: 30%;
+  font-family: "Comforter Brush", cursive;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.white {
+  color: white;
+}
+
+#contactLine {
+  position: absolute;
+  top: 127px;
+  height: 26px;
+  left: -414px;
+}
+
+#contactInfo h5 {
+  font-family: "Playfair Display";
+  margin: 20px 0;
+}
+
+/* Contact Social Icons */
+
+.socialLogo {
+  position: relative;
+  z-index: 2;
+  height: 50px;
+  margin-top: 23px;
+  margin-right: 64px;
+}
+
+/* Footer Splash Paint */
+
+.splash {
+  position: absolute;
+  height: 295px;
+  top: -36%;
+  left: 35%;
+}
+
+footer {
+  background-color: rgb(82, 129, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-top: 150px;
+  color: white;
+}
+
+/* Laptop Breakpoint */
+@media screen and (max-width: 1024px) {
+  #name {
+    font-size: 61px;
+    margin-top: 28px;
+    letter-spacing: -7px;
+  }
+
+  li {
+    margin-right: -11px;
+  }
+
+  ul li a {
+    font-size: 10px;
+  }
+
+  #about h3 {
+    font-size: 38px;
+  }
+
+  #work h3 {
+    font-size: 38px;
+  }
+
+  #contact h3 {
+    font-size: 38px;
+  }
+
+  .languageIcon {
+    height: 50px;
+  }
+
+  #icons {
+    flex-wrap: nowrap;
+    max-width: 80%;
+  }
+
+  .splash {
+    margin-right: -240px;
+    position: absolute;
+    height: 240px;
+    margin-top: -500px;
+  }
+}
+
+/* Tablet Breakpoint */
+@media screen and (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #design {
+    left: 5%;
+  }
+
+  #navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #name {
+    font-size: 43px;
+    letter-spacing: -5px;
+    margin-top: 41px;
+  }
+
+  li {
+    margin-right: -27px;
+    margin-top: -13px;
+  }
+
+  #underlineName {
+    width: 70%;
+  }
+
+  #linkContainer {
+    z-index: 2;
+    margin-top: 27px;
+    margin-left: 25px;
+    height: 20px;
+  }
+
+  #hero {
+    height: 350px;
+  }
+
+  #hero h2 {
+    font-size: 40px;
+  }
+
+  #and {
+    height: 50px;
+  }
+
+  #about div {
+    margin-top: 20px;
+    margin-left: 62px;
+  }
+
+  .smallProject {
+    min-width: 100%;
+  }
+
+  .smallTitle {
+    width: 50%;
+    text-align: center;
+  }
+
+  #projectThree,
+  #projectFive {
+    margin: 40px 0 0px 0px;
+  }
+
+  #work h3 {
+    width: auto;
+  }
+
+  #contact h3 {
+    width: auto;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #projectOne {
+    height: 200px;
+  }
+
+  #projectOneTitle {
+    top: 135px;
+    width: 50%;
+  }
+
+  #examplesContainer {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 35px;
+  }
+
+  .earth {
+    top: -9%;
+    right: 35%;
+  }
+
+  .splash {
+    height: 277px;
+    top: 160%;
+    left: 0%;
+  }
+
+  #contactInfo {
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .socialLogo {
+    height: 74px;
+    margin-top: 23px;
+    margin-right: 42px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .languageIcon {
+    height: 32px;
+  }
+
+  #icons {
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  #about h3 {
+    margin-left: 107px;
+    margin-top: 4px;
+    font-size: 38px;
+  }
+
+  #about div {
+    width: 105%;
+    margin-top: 38px;
+    margin-left: 0px;
+  }
+
+  #work h3 {
+    margin-top: 14%;
+    margin-left: 31%;
+  }
+
+  #work {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .underline {
+    height: 30px;
+  }
+
+  .splash {
+    height: 230px;
+    top: 182%;
+    left: 8%;
+  }
+
+  .earth {
+    top: -15%;
+    left: -2%;
+  }
+
+  #contact {
+    margin-top: 38px;
+  }
+
+  ul li a {
+    font-size: 13px;
+  }
+
+  #mailLast {
+    margin-right: 0px;
+  }
+
+  .socialLogo {
+    height: 64px;
+    margin-top: 23px;
+    margin-right: 42px;
+  }
+}
