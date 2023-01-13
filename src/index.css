@@ -79,7 +79,7 @@ ul li a {
   width: 100vw;
   height: 500px;
   position: relative;
-  background-image: url(../public/fern.jpg);
+  background-image: url(../images/fern.jpg);
   background-size: cover;
   background-position-y: 38%;
   border-bottom: 3px solid rgb(136, 138, 75);
