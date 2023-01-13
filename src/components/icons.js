@@ -3,7 +3,7 @@ import React from "react";
 const Icons = () => {
   return (
     <div id="icons">
-      <img class="languageIcon" src="../images/html-5 1.png" alt="html5 icon" />
+      <img class="languageIcon" src="html-5 1.png" alt="html5 icon" />
       <img class="languageIcon" src="../images/css 1.png" alt="css icon" />
       <img
         class="languageIcon"
