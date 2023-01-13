@@ -2,11 +2,15 @@ import React from "react";
 
 const About = () => {
   return (
-    <section class="container" id="about">
+    <section className="container" id="about">
       <h3>About</h3>
-      <img class="underline" src="aquamultihighlight.png" alt="decorative" />
+      <img
+        className="underline"
+        src="aquamultihighlight.png"
+        alt="decorative"
+      />
       <div>
-        <img class="avatar" src="user.jpg" alt="avatar" />
+        <img className="avatar" src="user.jpg" alt="avatar" />
         <p>
           Welcome to my professional portfolio! My name is Bryan Tempini, and I
           am a software developer leveraging seven years of experience as a

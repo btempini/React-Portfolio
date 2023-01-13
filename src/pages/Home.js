@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/hero";
 import Icons from "../components/icons";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <Hero />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

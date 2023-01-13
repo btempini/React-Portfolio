@@ -10,7 +10,6 @@ const Nav = () => {
           <ul>
             <div className="linkWrapper">
               <li>
-                {/* <a href="#about">About</a> */}
                 <Link to="/about">
                   <p>About</p>
                 </Link>
@@ -19,13 +18,17 @@ const Nav = () => {
             </div>
             <div className="linkWrapper">
               <li>
-                <a href="#work">Work</a>
+                <Link to="/work">
+                  <p>Work</p>
+                </Link>
               </li>
               <div className="linkLine"></div>
             </div>
             <div className="linkWrapper">
               <li>
-                <a href="#contact">Contact</a>
+                <Link to="/contact">
+                  <p>Contact</p>
+                </Link>
               </li>
               <div className="linkLine"></div>
             </div>
