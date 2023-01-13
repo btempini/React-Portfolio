@@ -6,7 +6,7 @@ const Work = () => {
       <h3>My Work</h3>
       <img
         className="underline"
-        src="aquamultihighlight.png"
+        src="../../public/aquamultihighlight.png"
         alt="decorative"
       />
       <div id="examplesContainer">
