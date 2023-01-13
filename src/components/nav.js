@@ -41,7 +41,11 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-      <img id="underlineName" src="greenmultihighlight.png" alt="decoration" />
+      <img
+        id="underlineName"
+        src="../images/greenmultihighlight.png"
+        alt="decoration"
+      />
     </nav>
   );
 };
