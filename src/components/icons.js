@@ -1,11 +1,11 @@
 import React from "react";
-import nodeIcon from "../images/node";
-import htmlIcon from "../images/html5";
-import cssIcon from "../images/css";
-import javaScriptIcon from "../images/javascript";
-import atomIcon from "../images/atom";
-import sqlIcon from "../images/sql";
-import mongoIcon from "../images/mongodb";
+import nodeIcon from "../images/node.png";
+import htmlIcon from "../images/htmlIcon.png";
+import cssIcon from "../images/css.png";
+import javaScriptIcon from "../images/javascript.png";
+import atomIcon from "../images/atom.png";
+import sqlIcon from "../images/sql.png";
+import mongoIcon from "../images/mongodb.png";
 
 const Icons = () => {
   return (
