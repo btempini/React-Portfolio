@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.8dcffe65.css",
-    "main.js": "/React-Portfolio/static/js/main.6cb8bcc5.js",
+    "main.js": "/React-Portfolio/static/js/main.c95c8db5.js",
     "static/media/StandardServices.png": "/React-Portfolio/static/media/StandardServices.5662000fce2bab537395.png",
     "static/media/advancedtree.png": "/React-Portfolio/static/media/advancedtree.c7e195b864b40372cbf9.png",
     "static/media/fern.jpg": "/React-Portfolio/static/media/fern.9a1dbd6668117aedb9b5.jpg",
@@ -9,14 +9,17 @@
     "static/media/user.jpg": "/React-Portfolio/static/media/user.3cdbe88c64e79d1620cf.jpg",
     "static/media/greenmultihighlight.png": "/React-Portfolio/static/media/greenmultihighlight.be9738265f3d1ddbf844.png",
     "static/media/aquamultihighlight.png": "/React-Portfolio/static/media/aquamultihighlight.d9e5ef36e5cea5e112b7.png",
+    "static/media/github.png": "/React-Portfolio/static/media/github.cd8a67ea11dcdc10d4c5.png",
     "static/media/sql.png": "/React-Portfolio/static/media/sql.08e607a690e09fcc3fb0.png",
+    "static/media/gmail.png": "/React-Portfolio/static/media/gmail.1baaa74a2666b61485a6.png",
     "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.c964002ecef4971216d0.png",
+    "static/media/linkedin.png": "/React-Portfolio/static/media/linkedin.697b327bff3a44113ae5.png",
     "index.html": "/React-Portfolio/index.html",
     "main.8dcffe65.css.map": "/React-Portfolio/static/css/main.8dcffe65.css.map",
-    "main.6cb8bcc5.js.map": "/React-Portfolio/static/js/main.6cb8bcc5.js.map"
+    "main.c95c8db5.js.map": "/React-Portfolio/static/js/main.c95c8db5.js.map"
   },
   "entrypoints": [
     "static/css/main.8dcffe65.css",
-    "static/js/main.6cb8bcc5.js"
+    "static/js/main.c95c8db5.js"
   ]
 }
