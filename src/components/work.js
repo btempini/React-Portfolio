@@ -1,14 +1,11 @@
 import React from "react";
+import aquaHighlight from "../images/aquamultihighlight.png";
 
 const Work = () => {
   return (
     <section className="container" id="work">
       <h3>My Work</h3>
-      <img
-        className="underline"
-        src="../../public/aquamultihighlight.png"
-        alt="decorative"
-      />
+      <img className="underline" src={aquaHighlight} alt="decorative" />
       <div id="examplesContainer">
         <div id="projectThree">
           <div className="projectTitle">

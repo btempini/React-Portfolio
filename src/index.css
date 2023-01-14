@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav Bar */
 #name {
   margin-top: 24px;
@@ -16,6 +20,8 @@
   font-family: "Playfair Display";
   margin-left: 20px;
   letter-spacing: -8px;
+  color: black;
+  position: relative;
 }
 
 #underlineName {

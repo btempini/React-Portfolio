@@ -6,7 +6,9 @@ const Nav = () => {
   return (
     <nav>
       <div id="navContainer">
-        <h1 id="name">Bryan Tempini</h1>
+        <Link to="/React-Portfolio">
+          <h1 id="name">Bryan Tempini</h1>
+        </Link>
         <div id="linkContainer">
           <ul>
             <div className="linkWrapper">
