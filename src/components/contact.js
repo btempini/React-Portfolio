@@ -1,6 +1,6 @@
 import React from "react";
 import splash from "../images/splash.png";
-import earthSplash from "../images/earth-splash.png";
+import earthSplash from "../images/earth-marker.png";
 
 const Contact = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import aquaHighlight from "../images/aquamultihighlight.png";
-import user from "../images/user.png";
+import user from "../images/user.jpg";
 
 const About = () => {
   return (
