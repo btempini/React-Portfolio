@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import greenBanner from "../images/greenmultihighlight";
 
 const Nav = () => {
   return (
@@ -41,11 +42,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-      <img
-        id="underlineName"
-        src="../images/greenmultihighlight.png"
-        alt="decoration"
-      />
+      <img id="underlineName" src={greenBanner} alt="decoration" />
     </nav>
   );
 };
