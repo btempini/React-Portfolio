@@ -79,7 +79,7 @@ ul li a {
   width: 100vw;
   height: 500px;
   position: relative;
-  background-image: url(./assets/fern.jpg);
+  background-image: url(../build/images/fern.jpg);
   background-size: cover;
   background-position-y: 38%;
   border-bottom: 3px solid rgb(136, 138, 75);
@@ -231,7 +231,7 @@ ul li a {
   width: 100%;
   height: 400px;
   position: relative;
-  background-image: url(./assets/StandardServices.png);
+  background-image: url(../build/images/StandardServices.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -241,7 +241,7 @@ ul li a {
   width: 100%;
   height: 400px;
   position: relative;
-  background-image: url(./assets/advancedtree.png);
+  background-image: url(../build/images/advancedtree.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -251,7 +251,7 @@ ul li a {
   width: 100%;
   height: 400px;
   position: relative;
-  background-image: url(./assets/dreamstream.png);
+  background-image: url(../build/images/dreamstream.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

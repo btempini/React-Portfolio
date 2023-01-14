@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import greenBanner from "../assets/greenmultihighlight.png";
+import greenBanner from "../images/greenmultihighlight.png";
 
 const Nav = () => {
   return (
