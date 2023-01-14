@@ -1,4 +1,6 @@
 import React from "react";
+import splash from "../images/splash.png";
+import earthSplash from "../images/earth-splash.png";
 
 const Contact = () => {
   return (
@@ -24,8 +26,8 @@ const Contact = () => {
             alt="gmail logo"
           />
         </a>
-        <img className="splash" src="splash.png" alt="paint splash" />
-        <img className="earth" src="earth-marker.png" alt="decorative" />
+        <img className="splash" src={splash} alt="paint splash" />
+        <img className="earth" src={earthSplash} alt="decorative" />
       </div>
     </section>
   );

@@ -1,16 +1,14 @@
 import React from "react";
+import aquaHighlight from "../images/aquamultihighlight.png";
+import user from "../images/user.png";
 
 const About = () => {
   return (
     <section className="container" id="about">
       <h3>About</h3>
-      <img
-        className="underline"
-        src="aquamultihighlight.png"
-        alt="decorative"
-      />
+      <img className="underline" src={aquaHighlight} alt="decorative" />
       <div>
-        <img className="avatar" src="user.jpg" alt="avatar" />
+        <img className="avatar" src={user} alt="avatar" />
         <p>
           Welcome to my professional portfolio! My name is Bryan Tempini, and I
           am a software developer leveraging seven years of experience as a
